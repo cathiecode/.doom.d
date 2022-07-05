@@ -13,9 +13,10 @@
 
 ;; auto save
 (auto-save-buffers-enhanced t)
-(setq auto-save-buffers-enhanced-interval 2)
+(setq auto-save-buffers-enhanced-interval 5)
 (setq auto-save-buffers-enhanced-quiet-save-p nil)
 (setq auto-save-default nil)
+(setq ws-butler-global-mode nil)
 
 ;; windmove
 (windmove-default-keybindings)
